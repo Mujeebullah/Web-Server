@@ -18,7 +18,7 @@ app.use( express.static( __dirname + '/public' ) );
 
 console.log( __dirname );
 
-app.listen( port, function(){
+app.listen( PORT, function(){
 	console.log( 'Express Server Started at port: ' + PORT );
 });
 
