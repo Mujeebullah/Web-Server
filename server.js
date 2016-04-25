@@ -7,7 +7,7 @@ var middleware = require( './middleware' );
 app.use( middleware.logger );
 
 app.get( '/about', middleware.requireAthuntication,  function( req, res ){
-	res.send( 'About Us!' );
+	res.send( 'About Us' );
 });
 
 app.get( '/contact', function( res, res ){
